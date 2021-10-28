@@ -18,6 +18,10 @@ endif
 # Inherit from zuma
 include device/google/zuma/device-shipping-common.mk
 
+# EUICC
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/permissions/permissions_com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/permissions_com.google.android.euicc.xml
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.sensors-V2-ndk.vendor:64
