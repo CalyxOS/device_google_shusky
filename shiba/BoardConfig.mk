@@ -41,7 +41,7 @@ include device/google/shusky/device-shusky-common.mk
 
 include device/google/zuma/BoardConfig-common.mk
 include device/google/gs-common/check_current_prebuilt/check_current_prebuilt.mk
-include device/google/shusky-sepolicy/shiba-sepolicy.mk
+include device/google/shusky/sepolicy/shiba-sepolicy.mk
 include device/google/shusky/wifi/BoardConfig-wifi.mk
 
 DEVICE_PATH := device/google/shusky
