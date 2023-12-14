@@ -16,6 +16,24 @@
       "message": "```\n\u003cmanifest xmlns:androidprv\u003d\"http://schemas.android.com/apk/prv/res/android\" xmlns:android\u003d\"http://schemas.android.com/apk/res/android\" android:versionCode\u003d\"34\" android:versionName\u003d\"14\" android:singleUser\u003d\"true\" android:compileSdkVersion\u003d\"34\" android:compileSdkVersionCodename\u003d\"14\" coreApp\u003d\"true\" package\u003d\"com.google.android.rilextension\" platformBuildVersionCode\u003d\"34\" platformBuildVersionName\u003d\"14\"\u003e\n  \u003cuses-sdk android:minSdkVersion\u003d\"34\" android:targetSdkVersion\u003d\"34\"/\u003e\n  \u003cprotected-broadcast android:name\u003d\"rilext.intent.action.ACTION_REPORT_RIL_ISSUE\"/\u003e\n  \u003cpermission android:name\u003d\"rilext.permission.REPORT_RIL_ISSUE\" android:protectionLevel\u003d\"0x00000003\"/\u003e\n  \u003cuses-permission android:name\u003d\"android.permission.READ_PHONE_STATE\"/\u003e\n  \u003cuses-permission android:name\u003d\"android.permission.READ_PRIVILEGED_PHONE_STATE\"/\u003e\n  \u003cuses-permission android:name\u003d\"android.permission.RECEIVE_BOOT_COMPLETED\"/\u003e\n  \u003cqueries\u003e\n    \u003cprovider android:exported\u003d\"true\" android:authorities\u003d\"com.google.android.carrier.vendorprovider\"/\u003e\n  \u003c/queries\u003e\n  \u003capplication android:persistent\u003d\"true\" android:extractNativeLibs\u003d\"true\" android:directBootAware\u003d\"true\" android:usesNonSdkApi\u003d\"true\"\u003e\n    \u003creceiver android:name\u003d\".RilExtReceiver\" android:enabled\u003d\"true\" android:exported\u003d\"true\"\u003e\n      \u003cintent-filter\u003e\n        \u003caction android:name\u003d\"android.intent.action.LOCKED_BOOT_COMPLETED\"/\u003e\n      \u003c/intent-filter\u003e\n    \u003c/receiver\u003e\n    \u003cservice android:name\u003d\".RilExtService\" android:enabled\u003d\"true\" android:launchMode\u003d\"3\" androidprv:systemUserOnly\u003d\"true\"/\u003e\n  \u003c/application\u003e\n\u003c/manifest\u003e\n```\n\n\nDoes this actually help with any issue?",
       "revId": "561735aaac16248bbbd428c02498041a5eb95336",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c5611bd_e73f91ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-12-14T21:31:15Z",
+      "side": 1,
+      "message": "Regardless, let\u0027s not sign it with `platform`",
+      "parentUuid": "a23330ce_b823110c",
+      "revId": "561735aaac16248bbbd428c02498041a5eb95336",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
