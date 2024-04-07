@@ -12,6 +12,10 @@ product/etc/sysconfig/allowlist_com.shannon.imsservice.xml
 # Radio
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
+# Temperature sensor
+product/etc/sysconfig/firproximity.xml
+product/priv-app/HealthIntelligenceStubPrebuilt/HealthIntelligenceStubPrebuilt.apk;PRESIGNED
+
 # system partition
 
 # IMS
