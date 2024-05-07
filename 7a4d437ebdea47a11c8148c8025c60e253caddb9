@@ -16,6 +16,24 @@
       "message": "`base_os` missing git weirdness is AOSP.",
       "revId": "7a4d437ebdea47a11c8148c8025c60e253caddb9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21c19db5_ab116987",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-05-07T21:12:06Z",
+      "side": 1,
+      "message": "Maybe we\u0027ll figure it out someday.",
+      "parentUuid": "287bb0b6_ab077495",
+      "revId": "7a4d437ebdea47a11c8148c8025c60e253caddb9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
