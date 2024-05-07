@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "287bb0b6_ab077495",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-05-07T21:11:49Z",
+      "side": 1,
+      "message": "`base_os` missing git weirdness is AOSP.",
+      "revId": "7a4d437ebdea47a11c8148c8025c60e253caddb9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
