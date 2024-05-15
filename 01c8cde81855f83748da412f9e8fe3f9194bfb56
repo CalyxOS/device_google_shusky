@@ -34,6 +34,24 @@
       "parentUuid": "e6324c1f_a8b0bc25",
       "revId": "01c8cde81855f83748da412f9e8fe3f9194bfb56",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c601690_9d0c24bc",
+        "filename": "device-calyx.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-15T12:23:37Z",
+      "side": 1,
+      "message": "Yes, just `$(LOCAL_PATH)` it looks like, based on what other makefiles do",
+      "parentUuid": "3585e8d8_082256b5",
+      "revId": "01c8cde81855f83748da412f9e8fe3f9194bfb56",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
