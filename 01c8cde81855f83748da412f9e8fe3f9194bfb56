@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6324c1f_a8b0bc25",
+        "filename": "device-calyx.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-05-15T04:50:14Z",
+      "side": 1,
+      "message": "Just noticed, felix.",
+      "revId": "01c8cde81855f83748da412f9e8fe3f9194bfb56",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
