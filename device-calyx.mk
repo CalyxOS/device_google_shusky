@@ -37,8 +37,12 @@ include device/google/gs-common/wireless_charger/wireless_charger.mk
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio.core.sounddose-V2-ndk.vendor \
+    android.hardware.audio.sounddose-V2-ndk.vendor \
+    libaudio_aidl_conversion_common_ndk.vendor \
     libaudioroutev2.vendor \
-    libtinycompress
+    libtinycompress \
+    libutils_binder
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -52,22 +56,22 @@ PRODUCT_PACKAGES += \
 
 # Codec2
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.0.vendor \
-    android.hardware.media.c2@1.1.vendor \
     android.hardware.media.c2@1.2.vendor \
     libacryl \
     libacryl_hdr_plugin \
     libavservices_minijail.vendor \
-    libcodec2_hidl@1.0.vendor \
-    libcodec2_hidl@1.1.vendor \
     libcodec2_hidl@1.2.vendor \
     libcodec2_soft_common.vendor \
     libcodec2_vndk.vendor \
     libexynosutils \
     libexynosv4l2 \
     libmedia_ecoservice.vendor \
+    libmedia_omx.vendor \
     libsfplugin_ccodec_utils.vendor \
     libstagefright_bufferpool@2.0.1.vendor \
+    libstagefright_omx.vendor \
+    libstagefright_omx_utils.vendor \
+    libstagefright_xmlparser.vendor \
     libvendorgraphicbuffer
 
 # Confirmation UI
@@ -76,6 +80,18 @@ PRODUCT_PACKAGES += \
     android.hardware.confirmationui-lib.trusty \
     android.hardware.confirmationui@1.0.vendor \
     libteeui_hal_support.vendor
+
+# Contexthub
+PRODUCT_PACKAGES += \
+    android.hardware.contexthub-V3-ndk.vendor \
+    chre_atoms_log \
+    chre_metrics_reporter \
+    chremetrics-cpp
+
+# GPS
+PRODUCT_PACKAGES += \
+    liblzma.vendor \
+    libunwindstack.vendor
 
 # Graphics
 PRODUCT_PACKAGES += \
@@ -120,6 +136,9 @@ PRODUCT_PACKAGES += \
 
 # Radio
 PRODUCT_PACKAGES += \
+    libnetutils.vendor \
+    libsqlite.vendor \
+    libziparchive.vendor \
     modem_clock_manager.vendor \
     modem_clock_manager_impl.vendor
 
@@ -183,3 +202,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi-V1-ndk.vendor \
     com.google.hardware.pixel.display-V9-ndk.vendor \
     hardware.google.ril_ext-V1-ndk.vendor
+
+# Misc
+PRODUCT_PACKAGES += \
+    libevent.vendor
