@@ -22,8 +22,8 @@ PRODUCT_MODEL := Pixel 8 Pro
 PRODUCT_NAME := calyx_$(DEVICE_CODENAME)
 
 PRODUCT_BUILD_PROP_OVERRIDES := \
-    BuildDesc="husky-user 15 AP4A.241205.013 12621605 release-keys" \
-    BuildFingerprint=google/husky/husky:15/AP4A.241205.013/12621605:user/release-keys \
+    BuildDesc="husky-user 15 AP4A.250105.002 12701944 release-keys" \
+    BuildFingerprint=google/husky/husky:15/AP4A.250105.002/12701944:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
