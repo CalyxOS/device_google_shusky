@@ -26,7 +26,7 @@ $(call soong_config_set,shusky_bootloader,prebuilt_dir,$(RELEASE_GOOGLE_BOOTLOAD
 
 
 TARGET_LINUX_KERNEL_VERSION := $(RELEASE_KERNEL_HUSKY_VERSION)
-TARGET_KERNEL_DIR := device/google/shusky-kernels/calyx
+TARGET_KERNEL_DIR := device/google/shusky-kernels/$(TARGET_LINUX_KERNEL_VERSION)
 TARGET_BOARD_KERNEL_HEADERS := $(TARGET_KERNEL_DIR)/kernel-headers
 
 LOCAL_PATH := device/google/shusky
