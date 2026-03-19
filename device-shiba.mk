@@ -42,7 +42,6 @@ PRODUCT_PACKAGES += \
     SafetyRegulatoryInfoOverlayProductShusky
 
 PRODUCT_PACKAGES += \
-    DMServiceOverlayVendorShiba \
     FrameworkResOverlayProductShiba \
     FrameworkResOverlayVendorShiba \
     PixelDisplayServiceOverlayProductShiba \
