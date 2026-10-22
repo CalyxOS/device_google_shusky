@@ -29,7 +29,7 @@ vendor.powerhal.apf_disabled=false
 vendor.powerhal.apf_enabled=true
 
 # SVN
-ro.vendor.build.svn=77
+ro.vendor.build.svn=79
 
 # USB
 vendor.usb.device=11210000.usb
